@@ -1,0 +1,5 @@
+import { createIcon, type IconProps } from "../createIcon";
+import type { SVGProps } from "react";
+const Svg = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" overflow="visible" viewBox="0 0 480 600" {...props}><g stroke="#000" strokeWidth={4}><path d="M233.026 241.45c-117.027 225.668 48.433 228.646 56.595 228.646 0 0 20.001-.001 28.667-10.334-41.667 53.001-101.333 52.334-101.333 52.334s-123.333-1.119-123.333-128c0-47.434 33.061-100.309 74.463-147.928" /><path fill="#FFF" d="M76.417 152.688 24.803 258.065s323.002-18.301 323.002 116.031c0 45.338-17.302 68.855-66.185 117.335 0 0 118.024-52.712 118.667-147.333.667-98.001-96.989-191.41-323.87-191.41z" /><path d="M332.621 89.764s-89 62-145 120c0 0 35 5 53 16 0 0 64-113 92-136z" /><path d="m140.621 27.764 155 73s-58 88-155-73zM142.621 18.764l156 73s-40-132-156-73zM316.621 106.764l157-10s-49-107-157 10zM305.621 115.764l163-9s-131 116-163 9z" /></g></svg>;
+export const BiodegradableIcon = createIcon("BiodegradableIcon", Svg);
+export type BiodegradableIconProps = IconProps;
