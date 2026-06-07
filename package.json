@@ -1,12 +1,12 @@
 {
   "name": "recycling-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A curated collection of packaging, recycling, disposal, and material identification SVG icons for web, mobile, and product compliance applications.",
   "license": "MIT",
   "author": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Sup3rCharged/recycling-icons.git"
   },
   "keywords": [
     "react",

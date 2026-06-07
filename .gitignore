@@ -4,3 +4,5 @@ dist/
 *.log
 .env
 .npmrc
+npm_recovery_codes.txt
+*recovery_codes*
